@@ -1,0 +1,27 @@
+.tableau{
+    position: relative;
+    margin-top: 35px;
+    right: -10%;
+    width: 80%;
+    color: #000;
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    text-align: center;
+}
+.tableau th, tr, td{
+    border: 1px solid #000;
+}
+.tableau td,th{
+    padding: 10px 0 10px 10px;
+}
+
+.tableau td.id {
+    text-align: center;
+    padding: 10px;
+}
+
+.tableau .matricule{
+    width: 10%;
+}

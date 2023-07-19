@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.home{
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background-image: url('https://images.pexels.com/photos/1101122/pexels-photo-1101122.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.title{
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.clear-button{
+    position: absolute;
+    right: 44%;
+    padding: 6px;
+    margin-right: 10px;
+    background-color: lightgrey;
+    height: 28px;
+    border: none;
+    border-radius: 5px;
+}
+
+.clear-button:hover{
+    cursor: pointer;
+    background-color: #9C1D21;
+}
+
+.find{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.find input{
+    padding: 10px;
+    width: 320px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: none;
+
+}
+.find input:focus{
+    outline-color: #9C1D21;
+    transition: 0.3s ease;
+}
+
+.find label{
+    color: #9C1D21;
+}
+
+.validate {
+    padding: 10px;
+    width: 120px;
+    border: 1px solid ;
+    background-color: #9C1D21;
+    border-radius: 10px;
+    border-color: #9C1D21;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.find button:hover{
+    transform: scale(1.1);
+    color: #fff;
+}

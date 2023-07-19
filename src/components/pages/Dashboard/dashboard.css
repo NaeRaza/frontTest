@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dashboard{
+    height: calc(100vh - 80px);
+    background-color: #fff;
+}
+
+.graph{
+    display: flex;
+    padding-top: 20 ;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    width: 720px;
+}

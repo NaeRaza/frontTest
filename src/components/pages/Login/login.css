@@ -1,0 +1,54 @@
+.login {
+    height: 100vh;
+    background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url("https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login-title{
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.login-form{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    width: 25%;
+}
+
+.login-form > label{
+    margin: 10px 0;
+}
+
+ .login-input{
+     padding: 10px;
+     background-color: #fff;
+     border: none;
+     border-radius: 10px;
+ }
+
+ .login-input:focus{
+    outline-color: #9C1D21;
+    transition: 0.3s ease;
+ }
+
+ .login-button{
+     margin-top: 20px;
+     cursor: pointer;
+     background-color: #9C1D21;
+     border: none;
+     color: white;
+     border-radius: 10px;
+     padding: 10px;
+     transition: 0.3s ease;
+ }
+
+ .login-button:hover{
+    transform: scale(1.1);
+    color: #fff;
+}
